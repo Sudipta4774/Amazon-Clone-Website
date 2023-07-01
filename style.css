@@ -57,7 +57,7 @@
 .nav-search {
   display: flex;
   justify-content: space-evenly;
-  background-color: pink;
+  background-color: white; 
   width: 620px;
   height: 40px;
   border-radius: 4px;
@@ -207,11 +207,16 @@ span {
   color: #007185;
 }
 
+.box-content p:hover{
+  color: rgb(183, 86, 17);
+  text-decoration: underline;
+}
+
 /* footer */
 footer {
   margin-top: 15px;
 }
-.foot-panel1 {
+.foot-panel1 a {
   background-color: #37475a;
   color: white;
   height: 50px;
@@ -220,10 +225,12 @@ footer {
   align-items: center;
   font-size: 0.85rem;
   font-weight: 300;
+  text-decoration: none;
 }
 
-.foot-panel1:hover {
+.foot-panel1 a:hover {
   background-color: #747c88;
+  text-decoration: none;
 }
 
 .foot-panel2 {
@@ -287,4 +294,8 @@ ul a:hover {
 }
 .copyright {
   padding-top: 5px;
+}
+
+html,body {
+  scroll-behavior: smooth;
 }
